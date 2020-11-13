@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="flex mx-auto bg-red-300 max-w-screen-md">
+      asdfas
+    </div>
     <div class="grid grid-cols-12 gap-5">
       <div class="col-span-1 bg-gray-400">
         <div class="flex flex-col justify-center">
