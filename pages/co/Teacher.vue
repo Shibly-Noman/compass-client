@@ -1,20 +1,15 @@
 <template>
   <div>
-    <div class="flex mx-auto bg-red-300 max-w-screen-md">
-      asdfas
+    <!--This is the TopBar-->
+    <div class="flex mx-auto bg-gray-200 px-5">
+        <img src="../../assets/compassIcon.png" class="logo my-3 px-10" alt="..." />
     </div>
-    <div class="grid grid-cols-12 gap-5">
-      <div class="col-span-1 bg-gray-400">
-        <div class="flex flex-col justify-center">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-        </div>
+    <div class="grid grid-cols-12 max-w-screen-lg bg-blue-100 mx-auto h-48 pt-5">
+      <div class="mx-10">
+        <img src="../../assets/svgs/man.png" alt="..." class="rounded-full profile" />
       </div>
-      <div class="col-span-4 bg-gray-500 rounded">ProfileDiv</div>
-      <div class="col-span-1 bg-gray-600 rounded">Content</div>
-      <div class="col-span-1 bg-gray-700 rounded">Right Span</div>
     </div>
+
   </div>
 </template>
 
@@ -26,4 +21,13 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo{
+  max-height: 30px;
+}
+.profile{
+  max-height: 150px;
+}
+
+
+</style>

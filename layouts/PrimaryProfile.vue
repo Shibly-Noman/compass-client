@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="block">
     <Nuxt />
   </div>
 </template>
@@ -23,5 +23,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 
 </style>
